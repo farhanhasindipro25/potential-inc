@@ -3,6 +3,7 @@ import HeroSection from "@/_libs/components/pages/root/HeroSection";
 import Navbar from "@/_libs/components/pages/root/Navbar";
 import Projects from "@/_libs/components/pages/root/Projects";
 import Services from "@/_libs/components/pages/root/Services";
+import Testimonials from "@/_libs/components/pages/root/Testimonials";
 
 export default function Home() {
     return (
@@ -11,7 +12,8 @@ export default function Home() {
             <HeroSection />
             <AboutMe />
             <Services />
-            <Projects/>
+            <Projects />
+            <Testimonials />
         </div>
     );
 }
