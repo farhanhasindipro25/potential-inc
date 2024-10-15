@@ -1,6 +1,7 @@
 import AboutMe from "@/_libs/components/pages/root/AboutMe";
 import HeroSection from "@/_libs/components/pages/root/HeroSection";
 import Navbar from "@/_libs/components/pages/root/Navbar";
+import Projects from "@/_libs/components/pages/root/Projects";
 import Services from "@/_libs/components/pages/root/Services";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
             <HeroSection />
             <AboutMe />
             <Services />
+            <Projects/>
         </div>
     );
 }

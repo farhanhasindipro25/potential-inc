@@ -2,7 +2,7 @@ import {
     DEFAULT_BUTTON_STYLES,
     LARGE_BUTTON_STYLES,
     MEDIUM_BUTTON_STYLES,
-    ORANGE_BUTTON_STYLES,
+    PRIMARY_BUTTON_STYLES,
     SECONDARY_BUTTON_STYLES,
     SMALL_BUTTON_STYLES,
 } from "@/_libs/styles/ButtonStyles";
@@ -12,7 +12,7 @@ import { cva } from "class-variance-authority";
 const BUTTON_VARIANTS = cva(DEFAULT_BUTTON_STYLES, {
     variants: {
         variant: {
-            primary: ORANGE_BUTTON_STYLES,
+            primary: PRIMARY_BUTTON_STYLES,
             secondary: SECONDARY_BUTTON_STYLES,
         },
         size: {
@@ -22,17 +22,17 @@ const BUTTON_VARIANTS = cva(DEFAULT_BUTTON_STYLES, {
         },
     },
     defaultVariants: {
-        variant: "orange",
+        variant: "primary",
         size: "medium",
     },
 });
 
 export default function Button({
     children,
-    variant,
-    size,
+    variant = "primary",
+    size = "medium",
     className,
-    type,
+    type = "submit",
     ...props
 }) {
     const BUTTON_STYLES = cn(BUTTON_VARIANTS({ variant, size }), className);
