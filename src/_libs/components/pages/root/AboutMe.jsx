@@ -16,7 +16,7 @@ export default function AboutMe() {
                     />
                 </div>
                 <div className="w-1/2">
-                    <h2 className="text-gray-900 text-7xl font-bold">
+                    <h2 className="text-gray-900 text-5xl font-bold">
                         About Me
                     </h2>
                     <p className="py-6 font-normal text-xl text-gray-500">

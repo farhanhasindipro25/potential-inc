@@ -1,6 +1,7 @@
 import AboutMe from "@/_libs/components/pages/root/AboutMe";
 import HeroSection from "@/_libs/components/pages/root/HeroSection";
 import Navbar from "@/_libs/components/pages/root/Navbar";
+import Services from "@/_libs/components/pages/root/Services";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Navbar />
             <HeroSection />
             <AboutMe />
+            <Services />
         </div>
     );
 }
