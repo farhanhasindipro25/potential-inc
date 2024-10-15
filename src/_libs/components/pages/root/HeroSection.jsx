@@ -29,7 +29,10 @@ export default function HeroSection() {
                         sed massa nibh lectus netus in. Aliquet donec morbi
                         convallis pretium. Turpis tempus pharetra
                     </p>
-                    <Button variant="primary" className="w-fit px-10 py-3">
+                    <Button
+                        variant="primary"
+                        className="w-fit text-white px-10 py-3"
+                    >
                         HIRE ME
                     </Button>
                 </div>

@@ -27,7 +27,9 @@ export default function Navbar() {
                             </Link>
                         ))}
                     </div>
-                    <Button variant="primary">Download CV</Button>
+                    <Button variant="primary" className="px-6 text-white py-3">
+                        Download CV
+                    </Button>
                 </div>
             </div>
         </div>

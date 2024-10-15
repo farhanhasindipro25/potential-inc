@@ -16,11 +16,21 @@ export default function Projects() {
                     pretium
                 </p>
                 <div className="flex items-center gap-6 mt-4">
-                    <Button variant="secondary">All</Button>
-                    <Button variant="secondary">UI/UX</Button>
-                    <Button variant="primary">Web Design</Button>
-                    <Button variant="secondary">App Design</Button>
-                    <Button variant="secondary">Graphic Design</Button>
+                    <Button className="px-6 py-2" variant="secondary">
+                        All
+                    </Button>
+                    <Button className="px-6 py-2" variant="secondary">
+                        UI/UX
+                    </Button>
+                    <Button className="px-6 py-2 text-white" variant="primary">
+                        Web Design
+                    </Button>
+                    <Button className="px-6 py-2" variant="secondary">
+                        App Design
+                    </Button>
+                    <Button className="px-6 py-2" variant="secondary">
+                        Graphic Design
+                    </Button>
                 </div>
             </div>
             <div className="grid grid-cols-3 gap-6 mt-14">
