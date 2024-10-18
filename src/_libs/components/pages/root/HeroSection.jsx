@@ -3,7 +3,7 @@ import React from "react";
 import heroImage from "@/_libs/assets/hero-section/heroImage.png";
 import Facebook from "@/_libs/assets/socials/Facebook.png";
 import Instagram from "@/_libs/assets/socials/Instagram.png";
-import Linkedin from "@/_libs/assets/socials/Linkedin.png";
+import LinkedIn from "@/_libs/assets/socials/LinkedIn.png";
 import Twitter from "@/_libs/assets/socials/Twitter.png";
 import Button from "../../ui/Button";
 
@@ -63,7 +63,7 @@ export default function HeroSection() {
                             alt="hero-img"
                         />
                         <Image
-                            src={Linkedin}
+                            src={LinkedIn}
                             width={30}
                             height={30}
                             alt="hero-img"

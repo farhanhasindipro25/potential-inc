@@ -5,7 +5,7 @@ import { navOptions } from "@/_libs/statics/navOptions";
 import Link from "next/link";
 import Facebook from "@/_libs/assets/socials/Facebook.png";
 import Instagram from "@/_libs/assets/socials/Instagram.png";
-import Linkedin from "@/_libs/assets/socials/Linkedin.png";
+import LinkedIn from "@/_libs/assets/socials/LinkedIn.png";
 import Twitter from "@/_libs/assets/socials/Twitter.png";
 
 export default function Footer() {
@@ -49,7 +49,7 @@ export default function Footer() {
                         alt="hero-img"
                     />
                     <Image
-                        src={Linkedin}
+                        src={LinkedIn}
                         width={20}
                         height={20}
                         alt="hero-img"
